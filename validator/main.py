@@ -41,21 +41,33 @@ class BanList(Validator):
 
     def validate(self, value: Any, metadata: Dict = {}) -> ValidationResult:
         """Validates that output does not have banned words."""
-        # Add your custom validator logic here and return a PassResult or FailResult accordingly.
+        spaceless_value = value.replace(" ","")
+        # list of tuples (character, index in original string)
+        spaceless_index_map = []
+
+        actual_index = 0
+        for i in range(len(value)):
+            actual_index += 1
+            if value[i] != " ":
+                spaceless_index_map.append((value[i], actual_index))
         all_matches = []
         for banned_word in self._banned_words:
-            matches = find_near_matches(banned_word, value, max_l_dist=self._max_l_dist)
+            spaceless_banned_word = banned_word.replace(" ","")
+            matches = find_near_matches(spaceless_banned_word, spaceless_value, max_l_dist=self._max_l_dist)
             all_matches.extend(matches)
+
         
         if len(all_matches) > 0:
             error_spans = []
             fix_value = value
             for match in all_matches:
-                triggering_text = value[match.start:match.end]
+                actual_start = spaceless_index_map[match.start][1]
+                actual_end = spaceless_index_map[match.end-1][1]
+                triggering_text = value[actual_start:actual_end]
                 fix_value = fix_value.replace(triggering_text, "")
                 error_spans.append(ErrorSpan(
-                    start=match.start,
-                    end=match.end,
+                    start=actual_start,
+                    end=actual_end,
                     reason=f"Found match with banned word '{match.matched}' in '{triggering_text}'"
                 ))
             return FailResult(
@@ -63,5 +75,6 @@ class BanList(Validator):
                 error_spans=error_spans,
                 fix_value=fix_value
             )
+
 
         return PassResult()

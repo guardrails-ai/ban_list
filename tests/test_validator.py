@@ -6,16 +6,26 @@ import pytest
 from validator import BanList
 
 @pytest.mark.parametrize("validator, output, expected_result", [
-  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
    "hello world!", 
    True),
-  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
    "bananers athens", False),
   (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
    "boconut breeze", False),
 
-  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
-   "b a n a n a", False),
+  # test whitespaces
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
+   "b   a   n   a   n   a", False),
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
+   "c   o c onu       ttr  e e s", False),
+
+  # test exact match
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
+   "banana", False),
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
+   "coconut trees", False),
+
 ])
 def test_combinations(validator, output, expected_result):
   guard = Guard.from_string(validators=[validator])
