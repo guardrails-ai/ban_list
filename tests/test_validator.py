@@ -5,18 +5,19 @@ from guardrails import Guard
 import pytest
 from validator import BanList
 
-guard = Guard.from_string(validators=[BanList(banned_words=['banana', 'athena'], max_l_dist=3, on_fail='noop')],)
+@pytest.mark.parametrize("validator, output, expected_result", [
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+   "hello world!", 
+   True),
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+   "bananers athens", False),
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+   "boconut breeze", False),
 
-def test_pass():
-  test_output = "hello world!"
-  result = guard.parse(test_output)
-  
-  assert result.validation_passed is True
-  assert result.validated_output == test_output
-
-def test_fail():
-  test_output = "bananers athens"
-  result = guard.parse(test_output)
-  
-  # Assert the exception has your error_message
-  assert result.validation_passed is False
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=3, on_fail='noop'), 
+   "b a n a n a", False),
+])
+def test_combinations(validator, output, expected_result):
+  guard = Guard.from_string(validators=[validator])
+  result = guard.parse(output)
+  assert result.validation_passed is expected_result
