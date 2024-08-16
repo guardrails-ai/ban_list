@@ -81,4 +81,3 @@ Note:
   | Key | Type | Description | Default |
   | --- | --- | --- | --- |
   | `key1` | String | Description of key1's role. | N/A |
-  </ul>
