@@ -1,9 +1,9 @@
 [project]
-name = "validator-template"
+name = "ban_list"
 version = "0.0.0"
-description = "Template repo for Guardrails Hub validators."
+description = "Ban List validator for Guardrails"
 authors = [
-    {name = "Guardrails AI", email = "contact@guardrailsai.com"}
+    {name = "Guardrails AI", email = "nick@guardrailsai.com"}
 ]
 license = {file = "LICENSE"}
 readme = "README.md"
