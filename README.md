@@ -48,7 +48,7 @@ guard = Guard().use(
 )
 
 guard.validate("Hello world! I really like Python.")  # Validator passes
-guard.validate("I am working on a project with the code name a t h e n a")  # Validator fails
+guard.validate("I am working on a project with the code name A T H E N A")  # Validator fails
 ```
 
 **`__init__(self, on_fail="noop")`**

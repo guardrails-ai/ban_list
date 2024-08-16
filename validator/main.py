@@ -41,7 +41,7 @@ class BanList(Validator):
 
     def validate(self, value: Any, metadata: Dict = {}) -> ValidationResult:
         """Validates that output does not have banned words."""
-        spaceless_value = value.replace(" ","")
+        spaceless_value = value.replace(" ","").lower()
         # list of tuples (character, index in original string)
         spaceless_index_map = []
 
@@ -52,7 +52,7 @@ class BanList(Validator):
                 spaceless_index_map.append((value[i], actual_index))
         all_matches = []
         for banned_word in self._banned_words:
-            spaceless_banned_word = banned_word.replace(" ","")
+            spaceless_banned_word = banned_word.replace(" ","").lower()
             matches = find_near_matches(spaceless_banned_word, spaceless_value, max_l_dist=self._max_l_dist)
             all_matches.extend(matches)
 

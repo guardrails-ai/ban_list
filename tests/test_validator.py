@@ -25,6 +25,8 @@ from validator import BanList
    "banana", False),
   (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
    "coconut trees", False),
+  (BanList(banned_words=['banana', 'athena', 'coconut trees'], max_l_dist=1, on_fail='noop'), 
+   "A T H E N A", False),
 
 ])
 def test_combinations(validator, output, expected_result):
