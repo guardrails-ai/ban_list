@@ -1,6 +1,6 @@
 [project]
 name = "ban_list"
-version = "0.0.0"
+version = "0.1.0"
 description = "Ban List validator for Guardrails"
 authors = [
     {name = "Guardrails AI", email = "nick@guardrailsai.com"}
