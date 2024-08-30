@@ -720,116 +720,1026 @@
     ],
     "latency_curve": [
       {
-        "input_length_chars": 0,
-        "latency_seconds": 0.12240309431063419,
-        "latency_seconds_stddev": 0.019424121082505116,
-        "latency_seconds_min": 0.09571146965026855,
+        "input_length_chars": 90,
+        "latency_seconds": 0.13308552927618858,
+        "latency_seconds_stddev": 0.04709101771249082,
+        "latency_seconds_min": 0.09817957878112793,
         "latency_seconds_max": 0.6529650688171387
       },
       {
-        "input_length_chars": 1300,
-        "latency_seconds": 0.1645113988356157,
-        "latency_seconds_stddev": 0.028044058408784534,
-        "latency_seconds_min": 0.12937712669372559,
-        "latency_seconds_max": 0.22726130485534668
+        "input_length_chars": 30,
+        "latency_seconds": 0.1213413400620949,
+        "latency_seconds_stddev": 0.01766381618490659,
+        "latency_seconds_min": 0.0976414680480957,
+        "latency_seconds_max": 0.26208019256591797
       },
       {
-        "input_length_chars": 600,
-        "latency_seconds": 0.14251554012298584,
-        "latency_seconds_stddev": 0.028819707428301568,
-        "latency_seconds_min": 0.1116323471069336,
-        "latency_seconds_max": 0.2762315273284912
+        "input_length_chars": 10,
+        "latency_seconds": 0.10910950669454872,
+        "latency_seconds_stddev": 0.012358359599759642,
+        "latency_seconds_min": 0.09653496742248535,
+        "latency_seconds_max": 0.17222332954406738
       },
       {
-        "input_length_chars": 200,
-        "latency_seconds": 0.1316454011743719,
-        "latency_seconds_stddev": 0.02189633551051559,
-        "latency_seconds_min": 0.09915328025817871,
-        "latency_seconds_max": 0.2372114658355713
+        "input_length_chars": 80,
+        "latency_seconds": 0.12598596611603868,
+        "latency_seconds_stddev": 0.017404048876492946,
+        "latency_seconds_min": 0.09848594665527344,
+        "latency_seconds_max": 0.18087124824523926
+      },
+      {
+        "input_length_chars": 1380,
+        "latency_seconds": 0.19817018508911133,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.19817018508911133,
+        "latency_seconds_max": 0.19817018508911133
+      },
+      {
+        "input_length_chars": 20,
+        "latency_seconds": 0.11526161624539283,
+        "latency_seconds_stddev": 0.014793869142491199,
+        "latency_seconds_min": 0.09571146965026855,
+        "latency_seconds_max": 0.23711895942687988
+      },
+      {
+        "input_length_chars": 660,
+        "latency_seconds": 0.14406580395168728,
+        "latency_seconds_stddev": 0.0213020222346722,
+        "latency_seconds_min": 0.11290478706359863,
+        "latency_seconds_max": 0.17238450050354004
+      },
+      {
+        "input_length_chars": 50,
+        "latency_seconds": 0.12639100987539872,
+        "latency_seconds_stddev": 0.01602050366985621,
+        "latency_seconds_min": 0.09814214706420898,
+        "latency_seconds_max": 0.19049882888793945
+      },
+      {
+        "input_length_chars": 240,
+        "latency_seconds": 0.13155603408813477,
+        "latency_seconds_stddev": 0.020921062658498947,
+        "latency_seconds_min": 0.11111998558044434,
+        "latency_seconds_max": 0.17918968200683594
+      },
+      {
+        "input_length_chars": 310,
+        "latency_seconds": 0.13474408785502115,
+        "latency_seconds_stddev": 0.02104564935228253,
+        "latency_seconds_min": 0.11093330383300781,
+        "latency_seconds_max": 0.18813109397888184
+      },
+      {
+        "input_length_chars": 40,
+        "latency_seconds": 0.12454950571852269,
+        "latency_seconds_stddev": 0.016792584135491707,
+        "latency_seconds_min": 0.09783697128295898,
+        "latency_seconds_max": 0.22645068168640137
+      },
+      {
+        "input_length_chars": 130,
+        "latency_seconds": 0.13225429633568073,
+        "latency_seconds_stddev": 0.024254959555588165,
+        "latency_seconds_min": 0.09916019439697266,
+        "latency_seconds_max": 0.265472412109375
+      },
+      {
+        "input_length_chars": 150,
+        "latency_seconds": 0.12898226579030356,
+        "latency_seconds_stddev": 0.019165732327729727,
+        "latency_seconds_min": 0.09896564483642578,
+        "latency_seconds_max": 0.19719982147216797
       },
       {
         "input_length_chars": 300,
-        "latency_seconds": 0.13688503022779497,
-        "latency_seconds_stddev": 0.02387091822686306,
-        "latency_seconds_min": 0.10821199417114258,
-        "latency_seconds_max": 0.1911022663116455
+        "latency_seconds": 0.13328427076339722,
+        "latency_seconds_stddev": 0.028049944888318544,
+        "latency_seconds_min": 0.11147570610046387,
+        "latency_seconds_max": 0.1885688304901123
+      },
+      {
+        "input_length_chars": 540,
+        "latency_seconds": 0.14018231630325317,
+        "latency_seconds_stddev": 0.022412101837737543,
+        "latency_seconds_min": 0.11065411567687988,
+        "latency_seconds_max": 0.1775224208831787
+      },
+      {
+        "input_length_chars": 110,
+        "latency_seconds": 0.12857439858572825,
+        "latency_seconds_stddev": 0.02017948051827471,
+        "latency_seconds_min": 0.09859514236450195,
+        "latency_seconds_max": 0.17911386489868164
       },
       {
         "input_length_chars": 100,
-        "latency_seconds": 0.12992910538276617,
-        "latency_seconds_stddev": 0.02639977154749645,
-        "latency_seconds_min": 0.09853267669677734,
-        "latency_seconds_max": 0.5904428958892822
+        "latency_seconds": 0.12855144909449986,
+        "latency_seconds_stddev": 0.01728868407545176,
+        "latency_seconds_min": 0.0987246036529541,
+        "latency_seconds_max": 0.17075586318969727
       },
       {
-        "input_length_chars": 500,
-        "latency_seconds": 0.13729554850880693,
-        "latency_seconds_stddev": 0.02159796299827331,
-        "latency_seconds_min": 0.11065411567687988,
-        "latency_seconds_max": 0.19124627113342285
-      },
-      {
-        "input_length_chars": 1500,
-        "latency_seconds": 0.18084676482460715,
-        "latency_seconds_stddev": 0.04294288879983873,
+        "input_length_chars": 1530,
+        "latency_seconds": 0.18148802335445696,
+        "latency_seconds_stddev": 0.04362996605924592,
         "latency_seconds_min": 0.11063385009765625,
         "latency_seconds_max": 0.35915303230285645
       },
       {
-        "input_length_chars": 400,
-        "latency_seconds": 0.13770157528906754,
-        "latency_seconds_stddev": 0.023617533271501418,
+        "input_length_chars": 180,
+        "latency_seconds": 0.1275945831747616,
+        "latency_seconds_stddev": 0.01659324505245963,
+        "latency_seconds_min": 0.103973388671875,
+        "latency_seconds_max": 0.17047524452209473
+      },
+      {
+        "input_length_chars": 440,
+        "latency_seconds": 0.13544982129877264,
+        "latency_seconds_stddev": 0.01852647991005739,
+        "latency_seconds_min": 0.1132667064666748,
+        "latency_seconds_max": 0.17197251319885254
+      },
+      {
+        "input_length_chars": 490,
+        "latency_seconds": 0.1546090841293335,
+        "latency_seconds_stddev": 0.026768834799112975,
+        "latency_seconds_min": 0.1152646541595459,
+        "latency_seconds_max": 0.18875980377197266
+      },
+      {
+        "input_length_chars": 290,
+        "latency_seconds": 0.13053458077566965,
+        "latency_seconds_stddev": 0.016911950583372658,
+        "latency_seconds_min": 0.11036562919616699,
+        "latency_seconds_max": 0.17291879653930664
+      },
+      {
+        "input_length_chars": 60,
+        "latency_seconds": 0.12759420146112857,
+        "latency_seconds_stddev": 0.01618891009869832,
+        "latency_seconds_min": 0.09836173057556152,
+        "latency_seconds_max": 0.22610235214233398
+      },
+      {
+        "input_length_chars": 1410,
+        "latency_seconds": 0.13935341153826034,
+        "latency_seconds_stddev": 0.006658121217618219,
+        "latency_seconds_min": 0.12770485877990723,
+        "latency_seconds_max": 0.14715123176574707
+      },
+      {
+        "input_length_chars": 360,
+        "latency_seconds": 0.14563687642415366,
+        "latency_seconds_stddev": 0.027770081388804786,
+        "latency_seconds_min": 0.11331033706665039,
+        "latency_seconds_max": 0.1911022663116455
+      },
+      {
+        "input_length_chars": 890,
+        "latency_seconds": 0.18123499552408853,
+        "latency_seconds_stddev": 0.024275783341324936,
+        "latency_seconds_min": 0.1470324993133545,
+        "latency_seconds_max": 0.20090770721435547
+      },
+      {
+        "input_length_chars": 520,
+        "latency_seconds": 0.14629242970393255,
+        "latency_seconds_stddev": 0.026491937659411057,
+        "latency_seconds_min": 0.1125955581665039,
+        "latency_seconds_max": 0.19124627113342285
+      },
+      {
+        "input_length_chars": 580,
+        "latency_seconds": 0.14113550715976292,
+        "latency_seconds_stddev": 0.023796955042225936,
+        "latency_seconds_min": 0.11281061172485352,
+        "latency_seconds_max": 0.18697619438171387
+      },
+      {
+        "input_length_chars": 250,
+        "latency_seconds": 0.13196295307528588,
+        "latency_seconds_stddev": 0.026540363428116345,
+        "latency_seconds_min": 0.10974454879760742,
+        "latency_seconds_max": 0.2372114658355713
+      },
+      {
+        "input_length_chars": 210,
+        "latency_seconds": 0.13666997729121028,
+        "latency_seconds_stddev": 0.02243419667297977,
+        "latency_seconds_min": 0.10375738143920898,
+        "latency_seconds_max": 0.17494416236877441
+      },
+      {
+        "input_length_chars": 380,
+        "latency_seconds": 0.1443040004143348,
+        "latency_seconds_stddev": 0.02177283897001193,
+        "latency_seconds_min": 0.10821199417114258,
+        "latency_seconds_max": 0.17517375946044922
+      },
+      {
+        "input_length_chars": 420,
+        "latency_seconds": 0.1307981931246244,
+        "latency_seconds_stddev": 0.019305212601905777,
+        "latency_seconds_min": 0.11093592643737793,
+        "latency_seconds_max": 0.1719074249267578
+      },
+      {
+        "input_length_chars": 160,
+        "latency_seconds": 0.12754068109724256,
+        "latency_seconds_stddev": 0.020520320523797094,
+        "latency_seconds_min": 0.09915637969970703,
+        "latency_seconds_max": 0.1995837688446045
+      },
+      {
+        "input_length_chars": 70,
+        "latency_seconds": 0.12633343338966369,
+        "latency_seconds_stddev": 0.015535721787174273,
+        "latency_seconds_min": 0.09804964065551758,
+        "latency_seconds_max": 0.1714165210723877
+      },
+      {
+        "input_length_chars": 170,
+        "latency_seconds": 0.1268395185470581,
+        "latency_seconds_stddev": 0.02372646481683593,
+        "latency_seconds_min": 0.09894657135009766,
+        "latency_seconds_max": 0.18358492851257324
+      },
+      {
+        "input_length_chars": 620,
+        "latency_seconds": 0.14503467082977295,
+        "latency_seconds_stddev": 0.033019112663882404,
+        "latency_seconds_min": 0.11173081398010254,
+        "latency_seconds_max": 0.17985963821411133
+      },
+      {
+        "input_length_chars": 220,
+        "latency_seconds": 0.13181790599116572,
+        "latency_seconds_stddev": 0.022658272483520953,
+        "latency_seconds_min": 0.09915328025817871,
+        "latency_seconds_max": 0.17167139053344727
+      },
+      {
+        "input_length_chars": 330,
+        "latency_seconds": 0.126219113667806,
+        "latency_seconds_stddev": 0.017144402183117254,
+        "latency_seconds_min": 0.11160516738891602,
+        "latency_seconds_max": 0.17059922218322754
+      },
+      {
+        "input_length_chars": 680,
+        "latency_seconds": 0.14447879791259766,
+        "latency_seconds_stddev": 0.023419053950791986,
+        "latency_seconds_min": 0.11502361297607422,
+        "latency_seconds_max": 0.1813664436340332
+      },
+      {
+        "input_length_chars": 730,
+        "latency_seconds": 0.15865616798400878,
+        "latency_seconds_stddev": 0.04119312518216043,
+        "latency_seconds_min": 0.11219978332519531,
+        "latency_seconds_max": 0.2256772518157959
+      },
+      {
+        "input_length_chars": 280,
+        "latency_seconds": 0.12858880483187163,
+        "latency_seconds_stddev": 0.021626878331941383,
+        "latency_seconds_min": 0.11111712455749512,
+        "latency_seconds_max": 0.179107666015625
+      },
+      {
+        "input_length_chars": 260,
+        "latency_seconds": 0.13037462417895979,
+        "latency_seconds_stddev": 0.020138837011124566,
+        "latency_seconds_min": 0.1105186939239502,
+        "latency_seconds_max": 0.16998696327209473
+      },
+      {
+        "input_length_chars": 970,
+        "latency_seconds": 0.14414405822753906,
+        "latency_seconds_stddev": 0.015984712662538942,
+        "latency_seconds_min": 0.12910747528076172,
+        "latency_seconds_max": 0.17382144927978516
+      },
+      {
+        "input_length_chars": 650,
+        "latency_seconds": 0.13134223222732544,
+        "latency_seconds_stddev": 0.018967629291435216,
+        "latency_seconds_min": 0.11227202415466309,
+        "latency_seconds_max": 0.17179417610168457
+      },
+      {
+        "input_length_chars": 930,
+        "latency_seconds": 0.1505951484044393,
+        "latency_seconds_stddev": 0.021862025022988316,
+        "latency_seconds_min": 0.12826943397521973,
+        "latency_seconds_max": 0.1916966438293457
+      },
+      {
+        "input_length_chars": 270,
+        "latency_seconds": 0.13007992506027222,
+        "latency_seconds_stddev": 0.023392128453772223,
+        "latency_seconds_min": 0.11044549942016602,
+        "latency_seconds_max": 0.17246651649475098
+      },
+      {
+        "input_length_chars": 640,
+        "latency_seconds": 0.1333787441253662,
+        "latency_seconds_stddev": 0.010132448761012935,
+        "latency_seconds_min": 0.11418628692626953,
+        "latency_seconds_max": 0.14339113235473633
+      },
+      {
+        "input_length_chars": 480,
+        "latency_seconds": 0.14439589327031915,
+        "latency_seconds_stddev": 0.02608047670092595,
+        "latency_seconds_min": 0.11197018623352051,
+        "latency_seconds_max": 0.18843698501586914
+      },
+      {
+        "input_length_chars": 980,
+        "latency_seconds": 0.13448095321655273,
+        "latency_seconds_stddev": 0.005192995071411133,
+        "latency_seconds_min": 0.1292879581451416,
+        "latency_seconds_max": 0.13967394828796387
+      },
+      {
+        "input_length_chars": 760,
+        "latency_seconds": 0.13534526030222574,
+        "latency_seconds_stddev": 0.01638909702447539,
+        "latency_seconds_min": 0.1267697811126709,
+        "latency_seconds_max": 0.17189860343933105
+      },
+      {
+        "input_length_chars": 460,
+        "latency_seconds": 0.1332566954872825,
+        "latency_seconds_stddev": 0.025014425883456603,
+        "latency_seconds_min": 0.11185717582702637,
+        "latency_seconds_max": 0.18716764450073242
+      },
+      {
+        "input_length_chars": 870,
+        "latency_seconds": 0.12988460063934326,
+        "latency_seconds_stddev": 0.0012117624282836914,
+        "latency_seconds_min": 0.12867283821105957,
+        "latency_seconds_max": 0.13109636306762695
+      },
+      {
+        "input_length_chars": 430,
+        "latency_seconds": 0.1556241035461426,
+        "latency_seconds_stddev": 0.036732968928124325,
         "latency_seconds_min": 0.1109323501586914,
         "latency_seconds_max": 0.1992778778076172
       },
       {
-        "input_length_chars": 1400,
-        "latency_seconds": 0.16203524952843076,
-        "latency_seconds_stddev": 0.03732402499002773,
-        "latency_seconds_min": 0.12770485877990723,
-        "latency_seconds_max": 0.27523040771484375
-      },
-      {
-        "input_length_chars": 800,
-        "latency_seconds": 0.1533079242706299,
-        "latency_seconds_stddev": 0.026777672811144074,
-        "latency_seconds_min": 0.12503290176391602,
-        "latency_seconds_max": 0.20090770721435547
-      },
-      {
-        "input_length_chars": 700,
-        "latency_seconds": 0.15375838524255997,
-        "latency_seconds_stddev": 0.03030685200441919,
-        "latency_seconds_min": 0.11219978332519531,
-        "latency_seconds_max": 0.24035096168518066
-      },
-      {
-        "input_length_chars": 900,
-        "latency_seconds": 0.15236200513066472,
-        "latency_seconds_stddev": 0.024264782444673547,
-        "latency_seconds_min": 0.12731051445007324,
-        "latency_seconds_max": 0.20436739921569824
-      },
-      {
-        "input_length_chars": 1000,
-        "latency_seconds": 0.16357126235961914,
-        "latency_seconds_stddev": 0.026784656117748686,
-        "latency_seconds_min": 0.12773942947387695,
+        "input_length_chars": 1010,
+        "latency_seconds": 0.1905195713043213,
+        "latency_seconds_stddev": 0.023739339676297867,
+        "latency_seconds_min": 0.16898083686828613,
         "latency_seconds_max": 0.22359132766723633
       },
       {
-        "input_length_chars": 1200,
-        "latency_seconds": 0.165684445699056,
-        "latency_seconds_stddev": 0.02446513111901778,
-        "latency_seconds_min": 0.1420433521270752,
+        "input_length_chars": 1500,
+        "latency_seconds": 0.1647322177886963,
+        "latency_seconds_stddev": 0.02595315056595362,
+        "latency_seconds_min": 0.12950468063354492,
+        "latency_seconds_max": 0.1912686824798584
+      },
+      {
+        "input_length_chars": 610,
+        "latency_seconds": 0.1471318933698866,
+        "latency_seconds_stddev": 0.02278086154718459,
+        "latency_seconds_min": 0.12873339653015137,
+        "latency_seconds_max": 0.1869053840637207
+      },
+      {
+        "input_length_chars": 590,
+        "latency_seconds": 0.125636617342631,
+        "latency_seconds_stddev": 0.005604192761415584,
+        "latency_seconds_min": 0.11360287666320801,
+        "latency_seconds_max": 0.13060593605041504
+      },
+      {
+        "input_length_chars": 200,
+        "latency_seconds": 0.13555385516240046,
+        "latency_seconds_stddev": 0.02220364461802819,
+        "latency_seconds_min": 0.10001301765441895,
+        "latency_seconds_max": 0.17383098602294922
+      },
+      {
+        "input_length_chars": 510,
+        "latency_seconds": 0.13736212253570557,
+        "latency_seconds_stddev": 0.02090926217176011,
+        "latency_seconds_min": 0.11242413520812988,
+        "latency_seconds_max": 0.16944098472595215
+      },
+      {
+        "input_length_chars": 840,
+        "latency_seconds": 0.1711476445198059,
+        "latency_seconds_stddev": 0.0269749890863268,
+        "latency_seconds_min": 0.12758851051330566,
+        "latency_seconds_max": 0.19728493690490723
+      },
+      {
+        "input_length_chars": 470,
+        "latency_seconds": 0.13735979795455933,
+        "latency_seconds_stddev": 0.017202002371018196,
+        "latency_seconds_min": 0.11106371879577637,
+        "latency_seconds_max": 0.1701502799987793
+      },
+      {
+        "input_length_chars": 1360,
+        "latency_seconds": 0.1743161678314209,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.1743161678314209,
+        "latency_seconds_max": 0.1743161678314209
+      },
+      {
+        "input_length_chars": 140,
+        "latency_seconds": 0.12874088142857407,
+        "latency_seconds_stddev": 0.018041299678247698,
+        "latency_seconds_min": 0.09853267669677734,
+        "latency_seconds_max": 0.1774125099182129
+      },
+      {
+        "input_length_chars": 530,
+        "latency_seconds": 0.13996762037277222,
+        "latency_seconds_stddev": 0.022088206170871327,
+        "latency_seconds_min": 0.11252522468566895,
+        "latency_seconds_max": 0.17611217498779297
+      },
+      {
+        "input_length_chars": 940,
+        "latency_seconds": 0.19555449485778809,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.19555449485778809,
+        "latency_seconds_max": 0.19555449485778809
+      },
+      {
+        "input_length_chars": 750,
+        "latency_seconds": 0.15150888760884604,
+        "latency_seconds_stddev": 0.012216086658468005,
+        "latency_seconds_min": 0.14118599891662598,
+        "latency_seconds_max": 0.16866731643676758
+      },
+      {
+        "input_length_chars": 120,
+        "latency_seconds": 0.13478212252907132,
+        "latency_seconds_stddev": 0.05054490722411811,
+        "latency_seconds_min": 0.09901905059814453,
+        "latency_seconds_max": 0.5904428958892822
+      },
+      {
+        "input_length_chars": 1460,
+        "latency_seconds": 0.27523040771484375,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.27523040771484375,
+        "latency_seconds_max": 0.27523040771484375
+      },
+      {
+        "input_length_chars": 550,
+        "latency_seconds": 0.14076530933380127,
+        "latency_seconds_stddev": 0.02028348272641229,
+        "latency_seconds_min": 0.11440229415893555,
+        "latency_seconds_max": 0.17877697944641113
+      },
+      {
+        "input_length_chars": 350,
+        "latency_seconds": 0.14611150668217585,
+        "latency_seconds_stddev": 0.024224438063031112,
+        "latency_seconds_min": 0.11135268211364746,
+        "latency_seconds_max": 0.18247413635253906
+      },
+      {
+        "input_length_chars": 1270,
+        "latency_seconds": 0.18414270877838135,
+        "latency_seconds_stddev": 0.04184448719024658,
+        "latency_seconds_min": 0.14229822158813477,
         "latency_seconds_max": 0.22598719596862793
       },
       {
-        "input_length_chars": 1100,
-        "latency_seconds": 0.16611898646635168,
-        "latency_seconds_stddev": 0.02959921288648287,
+        "input_length_chars": 320,
+        "latency_seconds": 0.12423433576311384,
+        "latency_seconds_stddev": 0.013424088267261172,
+        "latency_seconds_min": 0.11066174507141113,
+        "latency_seconds_max": 0.14743947982788086
+      },
+      {
+        "input_length_chars": 950,
+        "latency_seconds": 0.13340377807617188,
+        "latency_seconds_stddev": 0.005692899369116102,
+        "latency_seconds_min": 0.1298372745513916,
+        "latency_seconds_max": 0.14325284957885742
+      },
+      {
+        "input_length_chars": 740,
+        "latency_seconds": 0.1579885482788086,
+        "latency_seconds_stddev": 0.029733909109697962,
+        "latency_seconds_min": 0.13211417198181152,
+        "latency_seconds_max": 0.199631929397583
+      },
+      {
+        "input_length_chars": 450,
+        "latency_seconds": 0.12412172555923462,
+        "latency_seconds_stddev": 0.01930501745353017,
+        "latency_seconds_min": 0.11203265190124512,
+        "latency_seconds_max": 0.17144536972045898
+      },
+      {
+        "input_length_chars": 1300,
+        "latency_seconds": 0.13713312149047852,
+        "latency_seconds_stddev": 0.00775599479675293,
+        "latency_seconds_min": 0.12937712669372559,
+        "latency_seconds_max": 0.14488911628723145
+      },
+      {
+        "input_length_chars": 960,
+        "latency_seconds": 0.15143144130706787,
+        "latency_seconds_stddev": 0.020635485649108887,
+        "latency_seconds_min": 0.13079595565795898,
+        "latency_seconds_max": 0.17206692695617676
+      },
+      {
+        "input_length_chars": 1160,
+        "latency_seconds": 0.14976030588150024,
+        "latency_seconds_stddev": 0.029142286396159785,
         "latency_seconds_min": 0.1277172565460205,
+        "latency_seconds_max": 0.19893550872802734
+      },
+      {
+        "input_length_chars": 990,
+        "latency_seconds": 0.1678766409556071,
+        "latency_seconds_stddev": 0.02958535429000545,
+        "latency_seconds_min": 0.12760543823242188,
+        "latency_seconds_max": 0.19784140586853027
+      },
+      {
+        "input_length_chars": 1120,
+        "latency_seconds": 0.13118577003479004,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.13118577003479004,
+        "latency_seconds_max": 0.13118577003479004
+      },
+      {
+        "input_length_chars": 900,
+        "latency_seconds": 0.1513437827428182,
+        "latency_seconds_stddev": 0.01816297006078549,
+        "latency_seconds_min": 0.12910127639770508,
+        "latency_seconds_max": 0.1725616455078125
+      },
+      {
+        "input_length_chars": 1490,
+        "latency_seconds": 0.15328369140625,
+        "latency_seconds_stddev": 0.014545527515801175,
+        "latency_seconds_min": 0.14028215408325195,
+        "latency_seconds_max": 0.17703032493591309
+      },
+      {
+        "input_length_chars": 500,
+        "latency_seconds": 0.1298620104789734,
+        "latency_seconds_stddev": 0.019837452266223608,
+        "latency_seconds_min": 0.11191058158874512,
+        "latency_seconds_max": 0.16909432411193848
+      },
+      {
+        "input_length_chars": 1130,
+        "latency_seconds": 0.18271315097808838,
+        "latency_seconds_stddev": 0.008487105369567871,
+        "latency_seconds_min": 0.1742260456085205,
+        "latency_seconds_max": 0.19120025634765625
+      },
+      {
+        "input_length_chars": 720,
+        "latency_seconds": 0.15575118064880372,
+        "latency_seconds_stddev": 0.02831161120959904,
+        "latency_seconds_min": 0.12771081924438477,
+        "latency_seconds_max": 0.19082260131835938
+      },
+      {
+        "input_length_chars": 1350,
+        "latency_seconds": 0.1461576223373413,
+        "latency_seconds_stddev": 0.00028264522552490234,
+        "latency_seconds_min": 0.1458749771118164,
+        "latency_seconds_max": 0.1464402675628662
+      },
+      {
+        "input_length_chars": 1330,
+        "latency_seconds": 0.17256832122802734,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.17256832122802734,
+        "latency_seconds_max": 0.17256832122802734
+      },
+      {
+        "input_length_chars": 700,
+        "latency_seconds": 0.1643463671207428,
+        "latency_seconds_stddev": 0.03612086271036098,
+        "latency_seconds_min": 0.11301088333129883,
+        "latency_seconds_max": 0.24035096168518066
+      },
+      {
+        "input_length_chars": 780,
+        "latency_seconds": 0.14909648895263672,
+        "latency_seconds_stddev": 0.029589914348854284,
+        "latency_seconds_min": 0.12740659713745117,
+        "latency_seconds_max": 0.1909334659576416
+      },
+      {
+        "input_length_chars": 230,
+        "latency_seconds": 0.12291781107584636,
+        "latency_seconds_stddev": 0.012601908313988127,
+        "latency_seconds_min": 0.11133933067321777,
+        "latency_seconds_max": 0.14653706550598145
+      },
+      {
+        "input_length_chars": 810,
+        "latency_seconds": 0.1348280906677246,
+        "latency_seconds_stddev": 0.006598234176635742,
+        "latency_seconds_min": 0.12822985649108887,
+        "latency_seconds_max": 0.14142632484436035
+      },
+      {
+        "input_length_chars": 1020,
+        "latency_seconds": 0.1559082269668579,
+        "latency_seconds_stddev": 0.013363242149353027,
+        "latency_seconds_min": 0.14254498481750488,
+        "latency_seconds_max": 0.16927146911621094
+      },
+      {
+        "input_length_chars": 1110,
+        "latency_seconds": 0.1895287036895752,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.1895287036895752,
+        "latency_seconds_max": 0.1895287036895752
+      },
+      {
+        "input_length_chars": 1310,
+        "latency_seconds": 0.14545845985412598,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.14545845985412598,
+        "latency_seconds_max": 0.14545845985412598
+      },
+      {
+        "input_length_chars": 670,
+        "latency_seconds": 0.1255507469177246,
+        "latency_seconds_stddev": 0.006907093710914156,
+        "latency_seconds_min": 0.11213374137878418,
+        "latency_seconds_max": 0.13206839561462402
+      },
+      {
+        "input_length_chars": 1050,
+        "latency_seconds": 0.1642594337463379,
+        "latency_seconds_stddev": 0.0177494646067907,
+        "latency_seconds_min": 0.14702892303466797,
+        "latency_seconds_max": 0.18955588340759277
+      },
+      {
+        "input_length_chars": 1140,
+        "latency_seconds": 0.14364337921142578,
+        "latency_seconds_stddev": 0.001218557357788086,
+        "latency_seconds_min": 0.1424248218536377,
+        "latency_seconds_max": 0.14486193656921387
+      },
+      {
+        "input_length_chars": 1290,
+        "latency_seconds": 0.15165472030639648,
+        "latency_seconds_stddev": 0.013370354993443016,
+        "latency_seconds_min": 0.14211225509643555,
+        "latency_seconds_max": 0.1705629825592041
+      },
+      {
+        "input_length_chars": 340,
+        "latency_seconds": 0.13755553109305246,
+        "latency_seconds_stddev": 0.02084703570167987,
+        "latency_seconds_min": 0.11251997947692871,
+        "latency_seconds_max": 0.1730797290802002
+      },
+      {
+        "input_length_chars": 390,
+        "latency_seconds": 0.12863377730051676,
+        "latency_seconds_stddev": 0.014428293877512873,
+        "latency_seconds_min": 0.10927271842956543,
+        "latency_seconds_max": 0.14861369132995605
+      },
+      {
+        "input_length_chars": 830,
+        "latency_seconds": 0.19345951080322266,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.19345951080322266,
+        "latency_seconds_max": 0.19345951080322266
+      },
+      {
+        "input_length_chars": 600,
+        "latency_seconds": 0.14603158405848912,
+        "latency_seconds_stddev": 0.02598112385487639,
+        "latency_seconds_min": 0.1116323471069336,
+        "latency_seconds_max": 0.1792597770690918
+      },
+      {
+        "input_length_chars": 1060,
+        "latency_seconds": 0.15851163864135742,
+        "latency_seconds_stddev": 0.01271820068359375,
+        "latency_seconds_min": 0.14579343795776367,
+        "latency_seconds_max": 0.17122983932495117
+      },
+      {
+        "input_length_chars": 560,
+        "latency_seconds": 0.12701097130775452,
+        "latency_seconds_stddev": 0.00859424314593965,
+        "latency_seconds_min": 0.1145782470703125,
+        "latency_seconds_max": 0.14310455322265625
+      },
+      {
+        "input_length_chars": 1040,
+        "latency_seconds": 0.13988250494003296,
+        "latency_seconds_stddev": 0.007050716474141823,
+        "latency_seconds_min": 0.12773942947387695,
+        "latency_seconds_max": 0.1450955867767334
+      },
+      {
+        "input_length_chars": 1100,
+        "latency_seconds": 0.1697230339050293,
+        "latency_seconds_stddev": 0.025722503662109375,
+        "latency_seconds_min": 0.14400053024291992,
+        "latency_seconds_max": 0.19544553756713867
+      },
+      {
+        "input_length_chars": 1220,
+        "latency_seconds": 0.14553964138031006,
+        "latency_seconds_stddev": 0.0015567541122436523,
+        "latency_seconds_min": 0.1439828872680664,
+        "latency_seconds_max": 0.1470963954925537
+      },
+      {
+        "input_length_chars": 920,
+        "latency_seconds": 0.15535640716552734,
+        "latency_seconds_stddev": 0.026697279959631556,
+        "latency_seconds_min": 0.12731051445007324,
+        "latency_seconds_max": 0.1893620491027832
+      },
+      {
+        "input_length_chars": 630,
+        "latency_seconds": 0.13267000516255698,
+        "latency_seconds_stddev": 0.02605516059125061,
+        "latency_seconds_min": 0.11419391632080078,
+        "latency_seconds_max": 0.16951751708984375
+      },
+      {
+        "input_length_chars": 790,
+        "latency_seconds": 0.15082685152689615,
+        "latency_seconds_stddev": 0.018139848929766594,
+        "latency_seconds_min": 0.13247942924499512,
+        "latency_seconds_max": 0.17552828788757324
+      },
+      {
+        "input_length_chars": 570,
+        "latency_seconds": 0.13427460193634033,
+        "latency_seconds_stddev": 0.006666302680969238,
+        "latency_seconds_min": 0.1276082992553711,
+        "latency_seconds_max": 0.14094090461730957
+      },
+      {
+        "input_length_chars": 1470,
+        "latency_seconds": 0.16851413249969482,
+        "latency_seconds_stddev": 0.00013959407806396484,
+        "latency_seconds_min": 0.16837453842163086,
+        "latency_seconds_max": 0.1686537265777588
+      },
+      {
+        "input_length_chars": 1520,
+        "latency_seconds": 0.1468820571899414,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.1468820571899414,
+        "latency_seconds_max": 0.1468820571899414
+      },
+      {
+        "input_length_chars": 1420,
+        "latency_seconds": 0.1376417875289917,
+        "latency_seconds_stddev": 0.007358670234680176,
+        "latency_seconds_min": 0.13028311729431152,
+        "latency_seconds_max": 0.14500045776367188
+      },
+      {
+        "input_length_chars": 400,
+        "latency_seconds": 0.13657127486334908,
+        "latency_seconds_stddev": 0.02070761150401781,
+        "latency_seconds_min": 0.11308932304382324,
+        "latency_seconds_max": 0.1738431453704834
+      },
+      {
+        "input_length_chars": 860,
+        "latency_seconds": 0.1509695053100586,
+        "latency_seconds_stddev": 0.028307063938743278,
+        "latency_seconds_min": 0.13042926788330078,
+        "latency_seconds_max": 0.19099712371826172
+      },
+      {
+        "input_length_chars": 1200,
+        "latency_seconds": 0.14525115489959717,
+        "latency_seconds_stddev": 0.0032078027725219727,
+        "latency_seconds_min": 0.1420433521270752,
+        "latency_seconds_max": 0.14845895767211914
+      },
+      {
+        "input_length_chars": 410,
+        "latency_seconds": 0.13966744596307928,
+        "latency_seconds_stddev": 0.0176961558679147,
+        "latency_seconds_min": 0.11420893669128418,
+        "latency_seconds_max": 0.17499327659606934
+      },
+      {
+        "input_length_chars": 0,
+        "latency_seconds": 0.09964346885681152,
+        "latency_seconds_stddev": 0.0005797932988561814,
+        "latency_seconds_min": 0.09882354736328125,
+        "latency_seconds_max": 0.10005950927734375
+      },
+      {
+        "input_length_chars": 190,
+        "latency_seconds": 0.13426812489827475,
+        "latency_seconds_stddev": 0.019712688289743704,
+        "latency_seconds_min": 0.10659480094909668,
+        "latency_seconds_max": 0.17994117736816406
+      },
+      {
+        "input_length_chars": 370,
+        "latency_seconds": 0.14807399113972983,
+        "latency_seconds_stddev": 0.031440079738006846,
+        "latency_seconds_min": 0.11220550537109375,
+        "latency_seconds_max": 0.19035649299621582
+      },
+      {
+        "input_length_chars": 1320,
+        "latency_seconds": 0.18208026885986328,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.18208026885986328,
+        "latency_seconds_max": 0.18208026885986328
+      },
+      {
+        "input_length_chars": 820,
+        "latency_seconds": 0.14630746841430664,
+        "latency_seconds_stddev": 0.019499528283231274,
+        "latency_seconds_min": 0.12503290176391602,
+        "latency_seconds_max": 0.17213988304138184
+      },
+      {
+        "input_length_chars": 1400,
+        "latency_seconds": 0.17266511917114258,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.17266511917114258,
+        "latency_seconds_max": 0.17266511917114258
+      },
+      {
+        "input_length_chars": 1150,
+        "latency_seconds": 0.20187226931254068,
+        "latency_seconds_stddev": 0.015543096818018626,
+        "latency_seconds_min": 0.19057917594909668,
         "latency_seconds_max": 0.22385072708129883
+      },
+      {
+        "input_length_chars": 1180,
+        "latency_seconds": 0.13440918922424316,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.13440918922424316,
+        "latency_seconds_max": 0.13440918922424316
+      },
+      {
+        "input_length_chars": 1340,
+        "latency_seconds": 0.22726130485534668,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.22726130485534668,
+        "latency_seconds_max": 0.22726130485534668
+      },
+      {
+        "input_length_chars": 690,
+        "latency_seconds": 0.17383551597595215,
+        "latency_seconds_stddev": 0.05676644166164989,
+        "latency_seconds_min": 0.12618446350097656,
+        "latency_seconds_max": 0.2762315273284912
+      },
+      {
+        "input_length_chars": 1430,
+        "latency_seconds": 0.23410797119140625,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.23410797119140625,
+        "latency_seconds_max": 0.23410797119140625
+      },
+      {
+        "input_length_chars": 1030,
+        "latency_seconds": 0.14279460906982422,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.14279460906982422,
+        "latency_seconds_max": 0.14279460906982422
+      },
+      {
+        "input_length_chars": 850,
+        "latency_seconds": 0.1380140781402588,
+        "latency_seconds_stddev": 0.006711907143005211,
+        "latency_seconds_min": 0.12898492813110352,
+        "latency_seconds_max": 0.14410018920898438
+      },
+      {
+        "input_length_chars": 910,
+        "latency_seconds": 0.1745446523030599,
+        "latency_seconds_stddev": 0.025067903567260092,
+        "latency_seconds_min": 0.14303350448608398,
+        "latency_seconds_max": 0.20436739921569824
+      },
+      {
+        "input_length_chars": 770,
+        "latency_seconds": 0.17123639583587646,
+        "latency_seconds_stddev": 0.001826167106628418,
+        "latency_seconds_min": 0.16941022872924805,
+        "latency_seconds_max": 0.17306256294250488
+      },
+      {
+        "input_length_chars": 1390,
+        "latency_seconds": 0.1431891918182373,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.1431891918182373,
+        "latency_seconds_max": 0.1431891918182373
+      },
+      {
+        "input_length_chars": 1170,
+        "latency_seconds": 0.17208194732666016,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.17208194732666016,
+        "latency_seconds_max": 0.17208194732666016
+      },
+      {
+        "input_length_chars": 1510,
+        "latency_seconds": 0.18865549564361572,
+        "latency_seconds_stddev": 0.019497990608215332,
+        "latency_seconds_min": 0.1691575050354004,
+        "latency_seconds_max": 0.20815348625183105
+      },
+      {
+        "input_length_chars": 1240,
+        "latency_seconds": 0.17203410466512045,
+        "latency_seconds_stddev": 0.0014166999332131751,
+        "latency_seconds_min": 0.1700305938720703,
+        "latency_seconds_max": 0.17303991317749023
+      },
+      {
+        "input_length_chars": 1440,
+        "latency_seconds": 0.22508645057678223,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.22508645057678223,
+        "latency_seconds_max": 0.22508645057678223
+      },
+      {
+        "input_length_chars": 800,
+        "latency_seconds": 0.14980816841125488,
+        "latency_seconds_stddev": 0.022639036178588867,
+        "latency_seconds_min": 0.12716913223266602,
+        "latency_seconds_max": 0.17244720458984375
+      },
+      {
+        "input_length_chars": 1250,
+        "latency_seconds": 0.19473373889923096,
+        "latency_seconds_stddev": 0.006961226463317871,
+        "latency_seconds_min": 0.18777251243591309,
+        "latency_seconds_max": 0.20169496536254883
+      },
+      {
+        "input_length_chars": 1000,
+        "latency_seconds": 0.20646262168884277,
+        "latency_seconds_stddev": 0.01588296890258789,
+        "latency_seconds_min": 0.19057965278625488,
+        "latency_seconds_max": 0.22234559059143066
+      },
+      {
+        "input_length_chars": 1070,
+        "latency_seconds": 0.12809419631958008,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.12809419631958008,
+        "latency_seconds_max": 0.12809419631958008
+      },
+      {
+        "input_length_chars": 1260,
+        "latency_seconds": 0.17486572265625,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.17486572265625,
+        "latency_seconds_max": 0.17486572265625
+      },
+      {
+        "input_length_chars": 710,
+        "latency_seconds": 0.12696266174316406,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.12696266174316406,
+        "latency_seconds_max": 0.12696266174316406
+      },
+      {
+        "input_length_chars": 1090,
+        "latency_seconds": 0.17064499855041504,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.17064499855041504,
+        "latency_seconds_max": 0.17064499855041504
+      },
+      {
+        "input_length_chars": 1450,
+        "latency_seconds": 0.14144611358642578,
+        "latency_seconds_stddev": 0.0,
+        "latency_seconds_min": 0.14144611358642578,
+        "latency_seconds_max": 0.14144611358642578
       }
     ],
     "gpu_mem_idle_mb": 0,
