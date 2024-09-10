@@ -35,7 +35,12 @@ class BanList(Validator):
         max_l_dist: int = 1,
         on_fail: Optional[Callable] = None,
     ):
-        super().__init__(on_fail=on_fail, arg_1=banned_words)
+
+        super().__init__(
+            banned_words=banned_words,
+            max_l_dist=max_l_dist,
+            on_fail=on_fail)
+
         self._banned_words = banned_words
         self._max_l_dist = max_l_dist
 
